@@ -32,7 +32,7 @@ function slide_change(id){
             slider.style.left = '-2896px';
             break;
         case 3:
-            slider.style.left = '-4343px';
+            slider.style.left = '-4043px';
             break;
         default:
             break;
