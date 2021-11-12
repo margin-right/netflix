@@ -1,0 +1,11 @@
+
+#slider-wrap{
+    width: 1920px;
+}
+#explore{
+    position: absolute;
+    left: 135px;   
+}
+.start-slide{
+    margin-left: 135px;
+}

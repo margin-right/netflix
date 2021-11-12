@@ -9,12 +9,12 @@ body{
 }
 @font-face{
     font-family: 'sansation';
-    src:url(content/fonts/Sansation-Regular.ttf);
+    src:url(/content/fonts/Sansation-Regular.ttf);
 }
 #main-block{
     height: 951px;
     width: 100%;
-    background-image: url(content/bg-hero-section.png);
+    background-image: url(/content/bg-hero-section.png);
     background-size: cover;
     position: relative;
 }
@@ -230,7 +230,7 @@ body{
 #page-indicator-block{
     position: absolute;
     top: 343px;
-    right: calc(5.63% + 24px);
+    right: calc(5.63% + 24px); 
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -306,8 +306,9 @@ body{
 }
 #explore{
     position: absolute;
-    left: 7.64%;
-    top: 31.8%;
+    left: 7.64vw;
+    
+    
 }
 #slider-wrap{
     overflow: hidden;
@@ -316,7 +317,6 @@ body{
     height: 480px;
 }
 #slider{
-    width: 100%;
     height: 240px;
     display: flex;
     flex-direction: row;
@@ -324,6 +324,7 @@ body{
     margin-top: 72px;
     position: absolute;
     left: 0px;
+    right: auto;
     transition: 1000ms;
 }
 .slide-item{

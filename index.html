@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" media="(min-width: 1930px)" href="styles/big-size-style.css">
+    <link rel="stylesheet" media="(max-width: 1900px)" href="styles/mobile-style.css">
     <title>netflix</title>
 </head>
 <body>
@@ -92,8 +94,9 @@
             <img class="slider-dot" src="content/passive-dot.svg" onclick='slide_change(2)'>
             <img class="slider-dot" src="content/passive-dot.svg" onclick='slide_change(3)'>
         </div>
-        <p class="info-txt" id="explore">Explore All</p>
+        
         <div id="slider-wrap">
+            <p class="info-txt" id="explore">Explore All</p>
             <div id="slider">
 
 

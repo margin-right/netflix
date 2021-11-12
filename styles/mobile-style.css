@@ -1,0 +1,27 @@
+#central-content{
+    left: unset;
+    right: calc(5.63% + 24px);
+    width: fit-content;
+}
+@media screen and (max-width: 1380px) {
+    #central-content{
+        left: unset;
+        right: 1%;
+        width: fit-content;
+    }
+    #left-part{
+        left:1%;
+    }
+    #drop-menu-btn{
+        left: 1.8%;
+    }
+    #search-icon{
+        right: 1.8%;
+    }
+    #count-block{
+        right: 1%;
+    }
+    #page-indicator-block{
+        right: 3%;
+    }
+}
