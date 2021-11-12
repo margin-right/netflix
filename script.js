@@ -38,10 +38,10 @@ function slide_change(id){
             break;
     }
 
-    for (let i = 0; i < 4; i++) {                   ///
-        dots[i].src = "/content/passive-dot.svg";   ///  меняет активную точку (те что белые и одна красная))) 
-    }                                               ///
-    dots[id].src = "/content/active-dot.svg";       ///
+    for (let i = 0; i < 4; i++) {                  ///
+        dots[i].src = "content/passive-dot.svg";   ///  меняет активную точку (те что белые и одна красная))) 
+    }                                              ///
+    dots[id].src = "content/active-dot.svg";       ///
     global_id = id;
     slider_interval = setTimeout(slide_auto, timeout_time);
 }
