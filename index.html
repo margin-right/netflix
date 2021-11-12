@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>netflix</title>
+</head>
+<body>
+    <div id="main-block">
+        <div id="header">
+            <img id="drop-menu-btn" src="/content/Humburger_icon.png">
+            <img id='logo-name' src="/content/Logo Netflix.png">
+            <img id='search-icon' src="/content/search-icon.png">
+        </div>
+        <div id = "main-content">
+            <div id="left-part">
+                <div id='n-words'>
+                    <img src="/content/n-logo.png"><p id='n-txt'>SERIES</p>
+                </div>
+                <h1 id="serial-name">Lucifer</h1>
+                <div id="short-info">
+                    <p class="info-txt">2020</p>
+                    <div class="info-miniblock">
+                        16 +
+                    </div>
+                    <p class="info-txt" style="margin-left: 27px;">5 SEASONS</p>
+                    <div class="info-miniblock">
+                        HD
+                    </div>
+                    <p class="info-txt" style="margin-left: 20px;">AD<img src="/content/smile.svg"></p>
+                </div>
+                <div id="popular-block">
+                    <p class="info-txt">POPULAR ON NETFLIX</p>
+                    <div id="fake-slider">
+                        <div id="slides-wrap">
+                            <img class="slide-btn" src="/content/left-arrow.svg">
+                            <div class="fake-slide" style="background-image: url(/content/fake-slide1.png);"></div>
+                            <div id = 'space'></div>
+                            <div class="fake-slide" style="background-image: url(/content/fake-slide3.png); ;"></div>
+                            <img class="slide-btn" src="/content/right-arrow.svg">
+                        </div>
+                        <div class="fake-slide" id='focus-slide' style="background-image: url(/content/fake-slide2.png);"><img class="play-btn" src="/content/play_btn.svg"></div>
+                    </div>
+                    <p class="slide-text">Continue Watching</p>
+                    <div class="progress-bar"><div class="progress-bar-fill"></div></div>
+                    <div id="tag-list">
+                        <p class="tag-txt">IRREVERENT</p>
+                        <img class='text-dot' src="/content/dot.svg">
+                        <p class="tag-txt">EXCITING</p>
+                        <img class='text-dot' src="/content/dot.svg">
+                        <p class="tag-txt">CRIME</p>
+                    </div>
+                </div>
+            </div>
+            <div id="central-content">
+                <div id="trailer-block">
+                    <img src="/content/big-play-btn.svg" width="91px"><p id='n-txt' style="margin-left: 34px;">Watch Trailer</p>
+                </div>
+                <p id='trailer-text'>After an old acquaintance a violent fate, the charming Lucifer vows revenge on perpetrators and makes an unesxpected alliance</p>
+            </div>
+            <div id = 'count-block'>
+                <div class='big-num'><span>0</span><span style="color: rgb(243, 0, 0);">1</span></div>
+                <span id = 'num-div'>/</span>
+                <div id='sum-num'><span>0</span><span style="color: rgb(243, 0, 0);">4</span></div>
+            </div>
+            <div id="page-indicator-block">
+                <div class="indicate-line" id = "focus-line"></div>
+                <div class="indicate-line"></div>
+                <div class="indicate-line"></div>
+                <div class="indicate-line"></div>
+            </div>
+            <div id="action-block">
+                <img class="action-btn" src="/content/plus.svg">
+                <img class="action-btn" src="/content/like.svg">
+                <img class="action-btn" src="/content/dislike.svg">
+                <img class="action-btn" style="margin-right: 38px;" src="/content/info-icon.svg">
+                <div id='red-rectangle'></div>
+                <div id="age-block">
+                    <div class='big-num'>16+</div>
+                </div>
+            </div>
+        </div>
+        <div id="block-footer"></div>
+    </div>
+    <div id="bottom-block">
+        <p class="big-num" id = 'trends-txt'>TRENDING ON NETFLIX</p>
+        <div id='slider-dots-block'>
+            <img class="slider-dot" src="/content/active-dot.svg" onclick='slide_change(0)'>
+            <img class="slider-dot" src="/content/passive-dot.svg" onclick='slide_change(1)'>
+            <img class="slider-dot" src="/content/passive-dot.svg" onclick='slide_change(2)'>
+            <img class="slider-dot" src="/content/passive-dot.svg" onclick='slide_change(3)'>
+        </div>
+        <p class="info-txt" id="explore">Explore All</p>
+        <div id="slider-wrap">
+            <div id="slider">
+
+
+                <div class="slide-item start-slide">
+                    <div class="slide-img" style="background-image: url(/content/slide1.png);"><img class="play-btn" src="/content/play_btn.svg"></div>
+                    <div class="progress-bar slide-p-bar"><div class="progress-bar-fill"></div></div>
+                    <div id="short-info" style="margin-left: 0; margin-top: 38px;">
+                        <p class="info-txt">2021</p>
+                        <div class="info-miniblock">
+                            18 +
+                        </div>
+                        <p class="info-txt" style="margin-left: 27px;">2 SEASONS</p>
+                        <div class="info-miniblock">
+                            HD
+                        </div>
+                        <p class="info-txt" style="margin-left: 20px;">AD<img src="/content/smile.svg"></p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-img" style="background-image: url(/content/slide2.png);"><img class="play-btn" src="/content/play_btn.svg"></div>
+                    <div class="progress-bar slide-p-bar"><div class="progress-bar-fill fill-null"></div></div>
+                    <div id="short-info" style="margin-left: 0; margin-top: 38px;">
+                        <p class="info-txt">2021</p>
+                        <div class="info-miniblock">
+                            16 +
+                        </div>
+                        <p class="info-txt" style="margin-left: 27px;">1 SEASONS</p>
+                        <div class="info-miniblock">
+                            HD
+                        </div>
+                        <p class="info-txt" style="margin-left: 20px;">AD<img src="/content/smile.svg"></p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-img" style="background-image: url(/content/slide3.png);"><img class="play-btn" src="/content/play_btn.svg"></div>
+                    <div class="progress-bar slide-p-bar"><div class="progress-bar-fill fill-null"></div></div>
+                    <div id="short-info" style="margin-left: 0; margin-top: 38px;">
+                        <p class="info-txt">2021</p>
+                        <div class="info-miniblock">
+                            16 +
+                        </div>
+                        <p class="info-txt" style="margin-left: 27px;">1 SEASONS</p>
+                        <div class="info-miniblock">
+                            HD
+                        </div>
+                        <p class="info-txt" style="margin-left: 20px;">AD<img src="/content/smile.svg"></p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-img" style="background-image: url(/content/slide4.png);"><img class="play-btn" src="/content/play_btn.svg"></div>
+                    <div class="progress-bar slide-p-bar"><div class="progress-bar-fill fill-null"></div></div>
+                    <div id="short-info" style="margin-left: 0; margin-top: 38px;">
+                        <p class="info-txt">2021</p>
+                        <div class="info-miniblock">
+                            13 +
+                        </div>
+                        <p class="info-txt" style="margin-left: 27px;">2 SEASONS</p>
+                        <div class="info-miniblock">
+                            HD
+                        </div>
+                        <p class="info-txt" style="margin-left: 20px;">AD<img src="/content/smile.svg"></p>
+                    </div>
+                </div>
+
+                <div class="slide-item">
+                    <div class="slide-img" style="background-image: url(/content/slide1.png);"><img class="play-btn" src="/content/play_btn.svg"></div>
+                    <div class="progress-bar slide-p-bar"><div class="progress-bar-fill"></div></div>
+                    <div id="short-info" style="margin-left: 0; margin-top: 38px;">
+                        <p class="info-txt">2021</p>
+                        <div class="info-miniblock">
+                            18 +
+                        </div>
+                        <p class="info-txt" style="margin-left: 27px;">2 SEASONS</p>
+                        <div class="info-miniblock">
+                            HD
+                        </div>
+                        <p class="info-txt" style="margin-left: 20px;">AD<img src="/content/smile.svg"></p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-img" style="background-image: url(/content/slide2.png);"><img class="play-btn" src="/content/play_btn.svg"></div>
+                    <div class="progress-bar slide-p-bar"><div class="progress-bar-fill fill-null"></div></div>
+                    <div id="short-info" style="margin-left: 0; margin-top: 38px;">
+                        <p class="info-txt">2021</p>
+                        <div class="info-miniblock">
+                            16 +
+                        </div>
+                        <p class="info-txt" style="margin-left: 27px;">1 SEASONS</p>
+                        <div class="info-miniblock">
+                            HD
+                        </div>
+                        <p class="info-txt" style="margin-left: 20px;">AD<img src="/content/smile.svg"></p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-img" style="background-image: url(/content/slide3.png);"><img class="play-btn" src="/content/play_btn.svg"></div>
+                    <div class="progress-bar slide-p-bar"><div class="progress-bar-fill fill-null"></div></div>
+                    <div id="short-info" style="margin-left: 0; margin-top: 38px;">
+                        <p class="info-txt">2021</p>
+                        <div class="info-miniblock">
+                            16 +
+                        </div>
+                        <p class="info-txt" style="margin-left: 27px;">1 SEASONS</p>
+                        <div class="info-miniblock">
+                            HD
+                        </div>
+                        <p class="info-txt" style="margin-left: 20px;">AD<img src="/content/smile.svg"></p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-img" style="background-image: url(/content/slide4.png);"><img class="play-btn" src="/content/play_btn.svg"></div>
+                    <div class="progress-bar slide-p-bar"><div class="progress-bar-fill fill-null"></div></div>
+                    <div id="short-info" style="margin-left: 0; margin-top: 38px;">
+                        <p class="info-txt">2021</p>
+                        <div class="info-miniblock">
+                            13 +
+                        </div>
+                        <p class="info-txt" style="margin-left: 27px;">2 SEASONS</p>
+                        <div class="info-miniblock">
+                            HD
+                        </div>
+                        <p class="info-txt" style="margin-left: 20px;">AD<img src="/content/smile.svg"></p>
+                    </div>
+                </div>
+
+                <div class="slide-item">
+                    <div class="slide-img" style="background-image: url(/content/slide1.png);"><img class="play-btn" src="/content/play_btn.svg"></div>
+                    <div class="progress-bar slide-p-bar"><div class="progress-bar-fill"></div></div>
+                    <div id="short-info" style="margin-left: 0; margin-top: 38px;">
+                        <p class="info-txt">2021</p>
+                        <div class="info-miniblock">
+                            18 +
+                        </div>
+                        <p class="info-txt" style="margin-left: 27px;">2 SEASONS</p>
+                        <div class="info-miniblock">
+                            HD
+                        </div>
+                        <p class="info-txt" style="margin-left: 20px;">AD<img src="/content/smile.svg"></p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-img" style="background-image: url(/content/slide2.png);"><img class="play-btn" src="/content/play_btn.svg"></div>
+                    <div class="progress-bar slide-p-bar"><div class="progress-bar-fill fill-null"></div></div>
+                    <div id="short-info" style="margin-left: 0; margin-top: 38px;">
+                        <p class="info-txt">2021</p>
+                        <div class="info-miniblock">
+                            16 +
+                        </div>
+                        <p class="info-txt" style="margin-left: 27px;">1 SEASONS</p>
+                        <div class="info-miniblock">
+                            HD
+                        </div>
+                        <p class="info-txt" style="margin-left: 20px;">AD<img src="/content/smile.svg"></p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-img" style="background-image: url(/content/slide3.png);"><img class="play-btn" src="/content/play_btn.svg"></div>
+                    <div class="progress-bar slide-p-bar"><div class="progress-bar-fill fill-null"></div></div>
+                    <div id="short-info" style="margin-left: 0; margin-top: 38px;">
+                        <p class="info-txt">2021</p>
+                        <div class="info-miniblock">
+                            16 +
+                        </div>
+                        <p class="info-txt" style="margin-left: 27px;">1 SEASONS</p>
+                        <div class="info-miniblock">
+                            HD
+                        </div>
+                        <p class="info-txt" style="margin-left: 20px;">AD<img src="/content/smile.svg"></p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <div class="slide-img" style="background-image: url(/content/slide4.png);"><img class="play-btn" src="/content/play_btn.svg"></div>
+                    <div class="progress-bar slide-p-bar"><div class="progress-bar-fill fill-null"></div></div>
+                    <div id="short-info" style="margin-left: 0; margin-top: 38px;">
+                        <p class="info-txt">2021</p>
+                        <div class="info-miniblock">
+                            13 +
+                        </div>
+                        <p class="info-txt" style="margin-left: 27px;">2 SEASONS</p>
+                        <div class="info-miniblock">
+                            HD
+                        </div>
+                        <p class="info-txt" style="margin-left: 20px;">AD<img src="/content/smile.svg"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
