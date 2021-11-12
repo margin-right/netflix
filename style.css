@@ -9,12 +9,12 @@ body{
 }
 @font-face{
     font-family: 'sansation';
-    src:url(/content/fonts/Sansation-Regular.ttf);
+    src:url(content/fonts/Sansation-Regular.ttf);
 }
 #main-block{
     height: 951px;
     width: 100%;
-    background-image: url(/content/bg-hero-section.png);
+    background-image: url(content/bg-hero-section.png);
     background-size: cover;
     position: relative;
 }
