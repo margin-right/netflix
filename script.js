@@ -7,7 +7,7 @@ var steps_count;
 
 window.onload = function(){
     dots_counter();
-    //slider_interval = setTimeout(slide_auto, timeout_time);
+    slider_interval = setTimeout(slide_auto, timeout_time);
 }
 
 window.onresize = function(){
@@ -65,7 +65,11 @@ function slide_change(id){
     else{
         if (window.innerWidth<1931) {
             slider.style.left = "calc(-"+(slides_count*482)+"px + 92.36vw)";
-        }else{
+            if(window.innerWidth<514){
+                slider.style.left = "calc(-"+(slides_count*482)+"px + "+160+"vw)";
+            }
+        }
+        else{
             slider.style.left = '-4030px';
         }
         

@@ -25,3 +25,141 @@
         right: 3%;
     }
 }
+@media screen and (max-width: 1230px) and (min-width:941px){
+    #serial-name{
+        font-size: 6em;
+    }
+    #popular-block{
+        width: fit-content;
+        
+    }
+    .fake-slide{
+        display: none;
+    }
+    #focus-slide{
+        display: flex;
+        position: unset;
+    }
+    #space{
+        display: none;
+    }
+    #trailer-text{
+        font-size: 1.3em;
+        width: 98%;
+    }
+    #central-content{
+        width: 40vw;
+    }
+}
+@media screen and (max-width: 940px){
+    #main-block{
+        height: 1290px;
+    }
+    #main-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        position: unset;
+        margin-top: 40px;
+    }
+    #left-part{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: unset;
+    }
+    #serial-name{
+        padding-left: 20px;
+        font-size: 6em;
+    }
+    #short-info{
+        margin-left: 0;
+        
+    }
+    #count-block{
+        display: none;
+    }
+    #page-indicator-block{
+        display: none;
+    }
+    #central-content{
+        position:unset;
+        margin-top: 40px;
+    }
+    .action-wrap{
+        margin-top: 40px;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    #action-block{
+       
+        right: 0;
+        
+    }
+    #slides-wrap{
+        margin:0;
+        
+    }
+
+}
+@media screen and (max-width: 744px){
+    #popular-block{
+        width: fit-content;
+        
+    }
+    .fake-slide{
+        display: none;
+    }
+    #focus-slide{
+        display: flex;
+        position: unset;
+    }
+    #space{
+        display: none;
+    }
+    #trends-txt{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 514px){
+    #main-block{
+        height: 1020px;
+    }
+    #serial-name{
+        zoom: 0.7;
+    }
+    #popular-block{
+        zoom: 0.71;
+    }
+    #central-content{
+        zoom: 0.75;
+    }
+    #short-info{
+        zoom: 0.75;  
+    }
+    .action-wrap{
+        zoom: 0.75;
+    }
+    #slider-wrap{
+        zoom: 0.6;
+    }
+}
+@media screen and (max-width: 370px){
+    #main-block{
+        height: 910px;
+    }
+    #popular-block{
+        zoom: 0.61;
+    }
+    #central-content{
+        zoom: 0.65;
+    }
+    #short-info{
+        zoom: 0.65;  
+    }
+    .action-wrap{
+        zoom: 0.65;
+    }
+}

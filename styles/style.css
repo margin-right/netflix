@@ -9,12 +9,12 @@ body{
 }
 @font-face{
     font-family: 'sansation';
-    src:url(/content/fonts/Sansation-Regular.ttf);
+    src:url(../content/fonts/Sansation-Regular.ttf);
 }
 #main-block{
     height: 951px;
     width: 100%;
-    background-image: url(/content/bg-hero-section.png);
+    background-image: url(../content/bg-hero-section.png);
     background-size: cover;
     position: relative;
 }
@@ -246,12 +246,19 @@ body{
     width: 85px;
     background-color: white;   
 }
-#action-block{
+.action-wrap{
+    width: 100%;
+    height: fit-content;
     position: absolute;
     top: 776px;
     right: 0;
+}
+#action-block{
+    position: absolute;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    right: 0;
 }
 #age-block{
     width: 154px;
@@ -315,6 +322,7 @@ body{
     width: 100%;
     position: relative;
     height: 480px;
+    margin-top: 40px;
 }
 #slider{
     height: 240px;
