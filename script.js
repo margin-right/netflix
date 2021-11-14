@@ -15,7 +15,6 @@ window.onresize = function(){
 }
 
 function dots_counter(){
-    console.log(window.innerWidth)
     if (window.innerWidth<1021 && step!=1) {
         step = 1;
         dots_constructor(step);
